@@ -1,0 +1,157 @@
+[
+  {
+    "id": "room-01",
+    "name": "Aurora",
+    "building": "HQ North",
+    "floor": 1,
+    "capacity": 4,
+    "type": "huddle",
+    "amenities": ["tv_screen", "wifi", "whiteboard", "natural_light"],
+    "imageUrl": "https://picsum.photos/seed/aurora-room/800/500",
+    "description": "Cozy huddle space for quick syncs and pair work, with a wall-mounted TV screen.",
+    "isActive": true
+  },
+  {
+    "id": "room-02",
+    "name": "Borealis",
+    "building": "HQ North",
+    "floor": 2,
+    "capacity": 8,
+    "type": "meeting",
+    "amenities": [
+      "projector",
+      "whiteboard",
+      "video_conference",
+      "wifi",
+      "conference_phone"
+    ],
+    "imageUrl": "https://picsum.photos/seed/borealis-room/800/500",
+    "description": "Standard meeting room equipped for hybrid meetings with video conferencing.",
+    "isActive": true
+  },
+  {
+    "id": "room-03",
+    "name": "Cascade",
+    "building": "HQ North",
+    "floor": 3,
+    "capacity": 14,
+    "type": "conference",
+    "amenities": [
+      "projector",
+      "video_conference",
+      "conference_phone",
+      "wifi",
+      "catering",
+      "natural_light"
+    ],
+    "imageUrl": "https://picsum.photos/seed/cascade-room/800/500",
+    "description": "Spacious conference room ideal for department-wide meetings and workshops.",
+    "isActive": true
+  },
+  {
+    "id": "room-04",
+    "name": "Delta",
+    "building": "HQ South",
+    "floor": 1,
+    "capacity": 2,
+    "type": "phone_booth",
+    "amenities": ["wifi", "conference_phone"],
+    "imageUrl": "https://picsum.photos/seed/delta-room/800/500",
+    "description": "Private phone booth for one-on-one calls and focused conversations.",
+    "isActive": true
+  },
+  {
+    "id": "room-05",
+    "name": "Everest",
+    "building": "HQ South",
+    "floor": 2,
+    "capacity": 20,
+    "type": "boardroom",
+    "amenities": [
+      "projector",
+      "tv_screen",
+      "video_conference",
+      "conference_phone",
+      "wifi",
+      "catering",
+      "accessible",
+      "natural_light"
+    ],
+    "imageUrl": "https://picsum.photos/seed/everest-room/800/500",
+    "description": "Executive boardroom with premium AV setup for leadership and client meetings.",
+    "isActive": true
+  },
+  {
+    "id": "room-06",
+    "name": "Fjord",
+    "building": "HQ South",
+    "floor": 2,
+    "capacity": 6,
+    "type": "meeting",
+    "amenities": ["tv_screen", "whiteboard", "wifi", "video_conference"],
+    "imageUrl": "https://picsum.photos/seed/fjord-room/800/500",
+    "description": "Bright meeting room suited for small team discussions and design reviews.",
+    "isActive": true
+  },
+  {
+    "id": "room-07",
+    "name": "Glacier",
+    "building": "Annex",
+    "floor": 1,
+    "capacity": 30,
+    "type": "training",
+    "amenities": [
+      "projector",
+      "whiteboard",
+      "wifi",
+      "standing_desk",
+      "accessible",
+      "catering"
+    ],
+    "imageUrl": "https://picsum.photos/seed/glacier-room/800/500",
+    "description": "Large training room with movable tables for onboarding sessions and classes.",
+    "isActive": true
+  },
+  {
+    "id": "room-08",
+    "name": "Horizon",
+    "building": "Annex",
+    "floor": 2,
+    "capacity": 10,
+    "type": "conference",
+    "amenities": [
+      "projector",
+      "video_conference",
+      "conference_phone",
+      "wifi",
+      "natural_light"
+    ],
+    "imageUrl": "https://picsum.photos/seed/horizon-room/800/500",
+    "description": "Mid-size conference room with floor-to-ceiling windows and great natural light.",
+    "isActive": true
+  },
+  {
+    "id": "room-09",
+    "name": "Iris",
+    "building": "Annex",
+    "floor": 3,
+    "capacity": 4,
+    "type": "huddle",
+    "amenities": ["tv_screen", "wifi", "whiteboard"],
+    "imageUrl": "https://picsum.photos/seed/iris-room/800/500",
+    "description": "Compact huddle room for quick brainstorms and stand-ups.",
+    "isActive": true
+  },
+  {
+    "id": "room-10",
+    "name": "Jade",
+    "building": "HQ North",
+    "floor": 1,
+    "capacity": 6,
+    "type": "meeting",
+    "amenities": ["tv_screen", "whiteboard", "wifi"],
+    "imageUrl": "https://picsum.photos/seed/jade-room/800/500",
+    "description": "Currently undergoing AV maintenance and temporarily unavailable for booking.",
+    "isActive": false
+  }
+]
