@@ -1,0 +1,100 @@
+[
+  {
+    "id": "emp-01",
+    "name": "Alice Johnson",
+    "email": "alice.johnson@techzy.io",
+    "department": "Engineering",
+    "jobTitle": "Frontend Engineer"
+  },
+  {
+    "id": "emp-02",
+    "name": "Bob Martinez",
+    "email": "bob.martinez@techzy.io",
+    "department": "Engineering",
+    "jobTitle": "Backend Engineer"
+  },
+  {
+    "id": "emp-03",
+    "name": "Carol Nguyen",
+    "email": "carol.nguyen@techzy.io",
+    "department": "Product",
+    "jobTitle": "Product Manager"
+  },
+  {
+    "id": "emp-04",
+    "name": "David Smith",
+    "email": "david.smith@techzy.io",
+    "department": "Design",
+    "jobTitle": "Product Designer"
+  },
+  {
+    "id": "emp-05",
+    "name": "Emma Wilson",
+    "email": "emma.wilson@techzy.io",
+    "department": "Marketing",
+    "jobTitle": "Marketing Lead"
+  },
+  {
+    "id": "emp-06",
+    "name": "Frank O'Brien",
+    "email": "frank.obrien@techzy.io",
+    "department": "Sales",
+    "jobTitle": "Account Executive"
+  },
+  {
+    "id": "emp-07",
+    "name": "Grace Lee",
+    "email": "grace.lee@techzy.io",
+    "department": "People",
+    "jobTitle": "HR Business Partner"
+  },
+  {
+    "id": "emp-08",
+    "name": "Henry Adams",
+    "email": "henry.adams@techzy.io",
+    "department": "Finance",
+    "jobTitle": "Financial Analyst"
+  },
+  {
+    "id": "emp-09",
+    "name": "Isabella Rossi",
+    "email": "isabella.rossi@techzy.io",
+    "department": "Engineering",
+    "jobTitle": "Engineering Manager"
+  },
+  {
+    "id": "emp-10",
+    "name": "Jack Thompson",
+    "email": "jack.thompson@techzy.io",
+    "department": "Product",
+    "jobTitle": "Product Analyst"
+  },
+  {
+    "id": "emp-11",
+    "name": "Karen Davis",
+    "email": "karen.davis@techzy.io",
+    "department": "Design",
+    "jobTitle": "UX Researcher"
+  },
+  {
+    "id": "emp-12",
+    "name": "Liam Walker",
+    "email": "liam.walker@techzy.io",
+    "department": "Sales",
+    "jobTitle": "Sales Director"
+  },
+  {
+    "id": "emp-13",
+    "name": "Mia Garcia",
+    "email": "mia.garcia@techzy.io",
+    "department": "Marketing",
+    "jobTitle": "Content Strategist"
+  },
+  {
+    "id": "emp-14",
+    "name": "Noah Patel",
+    "email": "noah.patel@techzy.io",
+    "department": "Executive",
+    "jobTitle": "Chief Technology Officer"
+  }
+]
