@@ -172,9 +172,9 @@ export default function Bookings() {
     )
   }
 
-  const now = new Date()
-
   const filtered = useMemo(() => {
+    const now = new Date()
+
     const list = (bookings ?? []).filter((booking) =>
       matchesFilters(
         booking,
@@ -202,7 +202,6 @@ export default function Bookings() {
       return sortDir === "asc" ? result : -result
     })
     return sorted
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [bookings, filters, roomMap, currentUserId, sortField, sortDir])
 
   return (
