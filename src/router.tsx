@@ -5,6 +5,7 @@ import RoomDetailsPage from "./features/rooms/RoomDetailsPage"
 import BookingsPage from "./features/bookings/BookingsPage"
 import CalendarPage from "./features/calendar/CalendarPage"
 import DashboardPage from "./features/dashboard/DashboardPage"
+import NotFoundPage from "./features/misc/NotFoundPage"
 
 export const routes: RouteObject[] = [
   {
@@ -15,6 +16,7 @@ export const routes: RouteObject[] = [
       { path: "rooms/:roomId", element: <RoomDetailsPage /> },
       { path: "calendar", element: <CalendarPage /> },
       { path: "bookings", element: <BookingsPage /> },
+      { path: "*", element: <NotFoundPage /> },
     ],
   },
 ]
