@@ -279,6 +279,7 @@ export function BookingForm({
             type="date"
             aria-invalid={Boolean(errors.date)}
             {...register("date")}
+            className="w-81.25 md:w-full"
           />
           {errors.date ? (
             <p className="text-xs text-destructive">{errors.date.message}</p>
@@ -292,6 +293,7 @@ export function BookingForm({
             step={300}
             aria-invalid={Boolean(errors.startTime)}
             {...register("startTime")}
+            className="w-81.25 md:w-full"
           />
           {errors.startTime ? (
             <p className="text-xs text-destructive">
@@ -307,6 +309,7 @@ export function BookingForm({
             step={300}
             aria-invalid={Boolean(errors.endTime)}
             {...register("endTime")}
+            className="w-81.25 md:w-full"
           />
           {errors.endTime ? (
             <p className="text-xs text-destructive">{errors.endTime.message}</p>
