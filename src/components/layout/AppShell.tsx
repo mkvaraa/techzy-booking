@@ -5,6 +5,7 @@ import { Header } from "@/components/layout/Header"
 import { Toaster } from "@/components/ui/sonner"
 import { TooltipProvider } from "@/components/ui/tooltip"
 import { Skeleton } from "@/components/ui/skeleton"
+import { BookingDialogs } from "@/features/bookings/BookingDialogs"
 
 function PageFallback() {
   return (
@@ -28,7 +29,7 @@ export function AppShell() {
             </Suspense>
           </main>
         </div>
-
+        <BookingDialogs />
         <Toaster position="top-right" />
       </div>
     </TooltipProvider>
