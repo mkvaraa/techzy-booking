@@ -1,5 +1,5 @@
-import Rooms from "@/features/rooms/Rooms"
+import { Rooms } from "@/features/rooms/Rooms"
 
-export default function RoomsPage() {
+export function RoomsPage() {
   return <Rooms />
 }

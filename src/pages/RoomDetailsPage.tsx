@@ -1,5 +1,5 @@
-import RoomDetails from "@/features/rooms/RoomDetails"
+import { RoomDetails } from "@/features/rooms/RoomDetails"
 
-export default function RoomsDetailsPage() {
+export function RoomsDetailsPage() {
   return <RoomDetails />
 }

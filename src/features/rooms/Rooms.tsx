@@ -26,7 +26,7 @@ function matchesFilters(room: Room, filters: RoomFilters): boolean {
   return true
 }
 
-export default function Rooms() {
+export function Rooms() {
   const [searchParams, setSearchParams] = useSearchParams()
   const { data: rooms, isLoading } = useRooms()
   const { data: bookings } = useBookings()

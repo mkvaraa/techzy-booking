@@ -14,7 +14,7 @@ type DashboardStatsProps = {
   totalRooms: number
 }
 
-export default function DashboardStats({
+export function DashboardStats({
   availableNow,
   totalActiveRooms,
   todaysMeetings,

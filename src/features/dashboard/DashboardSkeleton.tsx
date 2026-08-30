@@ -1,7 +1,7 @@
 import { PageHeader } from "@/components/common/PageHeader"
 import { Skeleton } from "@/components/ui/skeleton"
 
-export default function DashboardSkeleton() {
+export function DashboardSkeleton() {
   return (
     <div className="space-y-6">
       <PageHeader title="Dashboard" />

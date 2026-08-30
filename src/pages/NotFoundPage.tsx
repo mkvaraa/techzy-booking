@@ -1,5 +1,5 @@
-import NotFound from "@/features/misc/NotFound"
+import { NotFound } from "@/features/misc/NotFound"
 
-export default function NotFoundPage() {
+export function NotFoundPage() {
   return <NotFound />
 }

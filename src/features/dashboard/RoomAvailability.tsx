@@ -13,9 +13,7 @@ type RoomAvailabilityProps = {
   }[]
 }
 
-export default function RoomAvailability({
-  roomStatuses,
-}: RoomAvailabilityProps) {
+export function RoomAvailability({ roomStatuses }: RoomAvailabilityProps) {
   return (
     <Card className="h-fit">
       <CardHeader>

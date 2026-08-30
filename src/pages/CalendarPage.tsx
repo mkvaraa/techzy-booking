@@ -1,5 +1,5 @@
-import BookingCalendar from "@/features/calendar/BookingCalendar"
+import { BookingCalendar } from "@/features/calendar/BookingCalendar"
 
-export default function CalendarPage() {
+export function CalendarPage() {
   return <BookingCalendar />
 }

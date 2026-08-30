@@ -9,14 +9,16 @@ import { useBookingDialogStore } from "@/store/bookingDialogStore"
 import { getRoomStatus } from "@/lib/roomStatus"
 import { dayEnd, dayStart, toDate } from "@/lib/date"
 import { format } from "date-fns"
-import DashboardStats from "./DashboardStats"
-import TodaySchedule from "./TodaySchedule"
-import RoomAvailability from "./RoomAvailability"
-import MyUpcomingBookings from "./MyUpcomingBookings"
-import { PlusIcon } from "lucide-react"
-import DashboardSkeleton from "./DashboardSkeleton"
 
-export default function Dashboard() {
+import { PlusIcon } from "lucide-react"
+
+import { DashboardStats } from "./DashboardStats"
+import { TodaySchedule } from "./TodaySchedule"
+import { RoomAvailability } from "./RoomAvailability"
+import { MyUpcomingBookings } from "./MyUpcomingBookings"
+import { DashboardSkeleton } from "./DashboardSkeleton"
+
+export function Dashboard() {
   const { data: bookings, isLoading } = useBookings()
   const { data: rooms } = useRooms()
   const roomMap = useRoomMap()

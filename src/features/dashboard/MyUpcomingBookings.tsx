@@ -13,7 +13,7 @@ type MyUpcomingBookingsProps = {
   onOpenBooking: (bookingId: string) => void
 }
 
-export default function MyUpcomingBookings({
+export function MyUpcomingBookings({
   bookings,
   roomMap,
   employeeMap,

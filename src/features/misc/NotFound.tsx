@@ -3,7 +3,7 @@ import { CompassIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { EmptyState } from "@/components/common/EmptyState"
 
-export default function NotFound() {
+export function NotFound() {
   return (
     <div className="py-10">
       <EmptyState

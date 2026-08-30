@@ -12,7 +12,7 @@ type TodayScheduleProps = {
   onOpenBooking: (bookingId: string) => void
 }
 
-export default function TodaySchedule({
+export function TodaySchedule({
   bookings,
   roomMap,
   employeeMap,

@@ -1,5 +1,5 @@
-import Bookings from "@/features/bookings/Bookings"
+import { Bookings } from "@/features/bookings/Bookings"
 
-export default function BookingsPage() {
+export function BookingsPage() {
   return <Bookings />
 }
