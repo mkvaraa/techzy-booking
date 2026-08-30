@@ -4,17 +4,8 @@ import { Sidebar } from "@/components/layout/Sidebar"
 import { Header } from "@/components/layout/Header"
 import { Toaster } from "@/components/ui/sonner"
 import { TooltipProvider } from "@/components/ui/tooltip"
-import { Skeleton } from "@/components/ui/skeleton"
 import { BookingDialogs } from "@/features/bookings/BookingDialogs"
-
-function PageFallback() {
-  return (
-    <div className="space-y-6">
-      <Skeleton className="h-9 w-56" />
-      <Skeleton className="h-[60vh] w-full rounded-xl" />
-    </div>
-  )
-}
+import { PageFallback } from "../common/PageFallback"
 
 export function AppShell() {
   return (

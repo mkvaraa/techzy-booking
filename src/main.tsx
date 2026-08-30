@@ -6,7 +6,7 @@ import { RouterProvider } from "react-router"
 import "./index.css"
 import { ThemeProvider } from "@/components/theme-provider.tsx"
 import { queryClient } from "@/lib/queryClient"
-import { router } from "@/router"
+import { router } from "@/router/index"
 import { ensureSeeded } from "@/api/db"
 import "@/styles/calendar.css"
 

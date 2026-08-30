@@ -22,7 +22,7 @@ import { getRoomStatus } from "@/lib/roomStatus"
 import { formatDay, formatTimeRange, toDate } from "@/lib/date"
 import { useBookingDialogStore } from "@/store/bookingDialogStore"
 
-export default function RoomDetailsPage() {
+export default function RoomDetails() {
   const { roomId } = useParams()
   const { data: room, isLoading, isError } = useRoom(roomId)
   const { data: bookings } = useBookings()

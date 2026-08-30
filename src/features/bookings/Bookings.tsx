@@ -96,7 +96,7 @@ function matchesFilters(
   return true
 }
 
-export default function BookingsPage() {
+export default function Bookings() {
   const [searchParams, setSearchParams] = useSearchParams()
   const { data: bookings, isLoading } = useBookings()
   const { data: rooms } = useRooms()

@@ -34,7 +34,7 @@ interface CalendarEvent {
 
 const ALL = "all"
 
-export default function CalendarPage() {
+export default function BookingCalendar() {
   const [searchParams, setSearchParams] = useSearchParams()
   const { data: bookings, isLoading } = useBookings()
   const { data: rooms } = useRooms()

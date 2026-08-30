@@ -16,7 +16,7 @@ import MyUpcomingBookings from "./MyUpcomingBookings"
 import { PlusIcon } from "lucide-react"
 import DashboardSkeleton from "./DashboardSkeleton"
 
-export default function DashboardPage() {
+export default function Dashboard() {
   const { data: bookings, isLoading } = useBookings()
   const { data: rooms } = useRooms()
   const roomMap = useRoomMap()
