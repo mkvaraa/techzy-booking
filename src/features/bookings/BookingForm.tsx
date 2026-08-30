@@ -1,5 +1,5 @@
 import { useMemo } from "react"
-import { useForm, Controller } from "react-hook-form"
+import { useForm, Controller, useWatch } from "react-hook-form"
 import { yupResolver } from "@hookform/resolvers/yup"
 import { formatISO } from "date-fns"
 import { TriangleAlertIcon } from "lucide-react"
@@ -113,19 +113,16 @@ export function BookingForm({
     control,
     register,
     handleSubmit,
-    watch,
     formState: { errors },
   } = useForm<BookingFormValues>({
     resolver: yupResolver(bookingFormSchema),
     defaultValues: buildDefaultValues(mode, booking, defaults, currentUserId),
   })
 
-  // eslint-disable-next-line react-hooks/incompatible-library
-  const roomId = watch("roomId")
-  const organizerId = watch("organizerId")
-  const date = watch("date")
-  const startTime = watch("startTime")
-  const endTime = watch("endTime")
+  const [roomId, organizerId, date, startTime, endTime] = useWatch({
+    control,
+    name: ["roomId", "organizerId", "date", "startTime", "endTime"],
+  })
 
   const conflict = useMemo(() => {
     if (!roomId || !date || !startTime || !endTime) return null
