@@ -39,6 +39,9 @@ export function ThemeToggle() {
             <span className="ml-auto text-xs">•</span>
           ) : null}
         </DropdownMenuItem>
+        <span className="mt-2 ml-auto hidden text-xs text-gray-400 lg:block">
+          * Press D for switch
+        </span>
       </DropdownMenuContent>
     </DropdownMenu>
   )

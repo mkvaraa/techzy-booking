@@ -209,12 +209,12 @@ export function Bookings() {
       <PageHeader
         title="Bookings"
         description="Search, filter and manage meeting bookings."
-        actions={
-          <Button onClick={() => openCreate()}>
-            <PlusIcon />
-            New booking
-          </Button>
-        }
+        // actions={
+        //   <Button onClick={() => openCreate()}>
+        //     <PlusIcon />
+        //     New booking
+        //   </Button>
+        // }
       />
 
       <BookingsFilters

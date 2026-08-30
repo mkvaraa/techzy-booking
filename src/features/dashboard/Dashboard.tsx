@@ -1,16 +1,14 @@
 import { PageHeader } from "@/components/common/PageHeader"
-import { Button } from "@/components/ui/button"
+
 import { useBookings } from "@/hooks/useBookings"
 import { useRooms } from "@/hooks/useRooms"
 import { useRoomMap, useEmployeeMap } from "@/hooks/useLookups"
 import { useCurrentUser } from "@/hooks/useCurrentUser"
 import { useOpenBooking } from "@/hooks/useOpenBooking"
-import { useBookingDialogStore } from "@/store/bookingDialogStore"
+
 import { getRoomStatus } from "@/lib/roomStatus"
 import { dayEnd, dayStart, toDate } from "@/lib/date"
 import { format } from "date-fns"
-
-import { PlusIcon } from "lucide-react"
 
 import { DashboardStats } from "./DashboardStats"
 import { TodaySchedule } from "./TodaySchedule"
@@ -25,7 +23,7 @@ export function Dashboard() {
   const employeeMap = useEmployeeMap()
   const { currentUserId, currentUser } = useCurrentUser()
   const openBooking = useOpenBooking()
-  const openCreate = useBookingDialogStore((s) => s.openCreate)
+  // const openCreate = useBookingDialogStore((s) => s.openCreate)
 
   const now = new Date()
 
@@ -69,12 +67,12 @@ export function Dashboard() {
       <PageHeader
         title={`Welcome${currentUser ? `, ${currentUser.name.split(" ")[0]}` : ""}`}
         description={format(now, "EEEE, MMMM d, yyyy")}
-        actions={
-          <Button onClick={() => openCreate()}>
-            <PlusIcon />
-            New booking
-          </Button>
-        }
+        // actions={
+        //   <Button onClick={() => openCreate()}>
+        //     <PlusIcon />
+        //     New booking
+        //   </Button>
+        // }
       />
 
       <DashboardStats
