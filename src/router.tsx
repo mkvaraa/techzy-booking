@@ -4,6 +4,7 @@ import App from "./App"
 import RoomsPage from "./features/rooms/RoomsPage"
 import RoomDetailsPage from "./features/rooms/RoomDetailsPage"
 import BookingsPage from "./features/bookings/BookingsPage"
+import CalendarPage from "./features/calendar/CalendarPage"
 
 export const routes: RouteObject[] = [
   {
@@ -12,6 +13,7 @@ export const routes: RouteObject[] = [
       { index: true, element: <App /> }, //test route
       { path: "rooms", element: <RoomsPage /> },
       { path: "rooms/:roomId", element: <RoomDetailsPage /> },
+      { path: "calendar", element: <CalendarPage /> },
       { path: "bookings", element: <BookingsPage /> },
     ],
   },

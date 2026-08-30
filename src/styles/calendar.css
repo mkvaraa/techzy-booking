@@ -1,0 +1,105 @@
+@import "react-big-calendar/lib/css/react-big-calendar.css";
+
+/* Theme integration for react-big-calendar using app design tokens. */
+.rbc-calendar {
+  color: var(--foreground);
+  font-family: inherit;
+}
+
+.rbc-toolbar {
+  display: none;
+}
+
+.rbc-time-view,
+.rbc-month-view {
+  border-color: var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--card);
+}
+
+.rbc-time-header,
+.rbc-time-content,
+.rbc-header,
+.rbc-time-content > * + * > *,
+.rbc-day-bg + .rbc-day-bg,
+.rbc-month-row + .rbc-month-row,
+.rbc-time-header-content,
+.rbc-timeslot-group,
+.rbc-time-slot,
+.rbc-header + .rbc-header,
+.rbc-time-header.rbc-overflowing,
+.rbc-time-content > .rbc-time-gutter,
+.rbc-day-slot .rbc-time-slot {
+  border-color: var(--border);
+}
+
+.rbc-header {
+  padding: 8px 4px;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.rbc-time-gutter,
+.rbc-label {
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
+}
+
+.rbc-today {
+  background-color: color-mix(in oklch, var(--primary) 8%, transparent);
+}
+
+.rbc-off-range-bg {
+  background-color: var(--muted);
+}
+
+.rbc-current-time-indicator {
+  background-color: var(--destructive);
+  height: 2px;
+}
+
+.rbc-event {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 2px 5px;
+  font-size: 0.72rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.rbc-event.rbc-selected,
+.rbc-day-slot .rbc-selected.rbc-background-event {
+  background-color: color-mix(in oklch, var(--primary) 80%, black);
+}
+
+.rbc-event:focus {
+  outline: 2px solid var(--ring);
+}
+
+.rbc-event-cancelled {
+  background-color: var(--muted-foreground) !important;
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+.rbc-event-label {
+  font-size: 0.68rem;
+}
+
+.rbc-slot-selection {
+  background-color: color-mix(in oklch, var(--primary) 25%, transparent);
+  color: var(--foreground);
+  border-radius: var(--radius-sm);
+}
+
+.rbc-show-more {
+  color: var(--primary);
+  background: transparent;
+  font-size: 0.7rem;
+}
+
+.rbc-time-header-gutter {
+  background: var(--card);
+}

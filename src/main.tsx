@@ -8,6 +8,7 @@ import { ThemeProvider } from "@/components/theme-provider.tsx"
 import { queryClient } from "@/lib/queryClient"
 import { router } from "@/router"
 import { ensureSeeded } from "@/api/db"
+import "@/styles/calendar.css"
 
 ensureSeeded()
 
